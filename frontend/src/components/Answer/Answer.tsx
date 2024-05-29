@@ -322,10 +322,7 @@ export const Answer = ({ answer, onCitationClicked }: Props) => {
                 </Stack>
               </Stack>
             </Stack.Item>
-          )}
-          <Stack.Item className={styles.answerDisclaimerContainer}>
-            <span className={styles.answerDisclaimer}>AI-generated content may be incorrect</span>
-          </Stack.Item>
+          )}          
         </Stack>
         {chevronIsExpanded && (
           <div className={styles.citationWrapper}>
